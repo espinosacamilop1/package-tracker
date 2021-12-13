@@ -1,12 +1,10 @@
 .home{
     height: 100vh;
     background-color: #ffffff73;
-    z-index: -1;
-    margin-top: 15vh;
 }
 
 .home__packageListing{
-    background-color: #000000;
+    background-color: #3f7286;
     height: 15vh;
     margin: 1.5vh 4.5vw 1vh 4.5vw ;
     /* margin-left: 4.5vw;
@@ -16,10 +14,11 @@
     padding: 1vh;
     border-radius: 10px;
     box-shadow: 2px 2px 2px gray;
-    z-index: 6;
+    z-index: -1;
 }
 
 .home__packageListing > *{
     color: white;
     font-weight: 300;
+    margin-top: 1vh;
 }

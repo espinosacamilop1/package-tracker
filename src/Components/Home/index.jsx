@@ -4,7 +4,12 @@ import React from 'react'
 import './index.css'
 
 //Components import
-import NavBar from '../NavBar'
+import NavBar from '../NavBar/Navigation'
+
+
+//MUI components import
+import {Button} from '@mui/material'
+
 
 function Home() {
     return (
@@ -18,30 +23,82 @@ function Home() {
                 <h4>
                     Name: Jane Doe
                 </h4>
+                <h4>
+                    Carrier: Fedex
+                </h4>
+                <h4>
+                    Type: Envelope
+                </h4>
             </div>
             <div className="home__packageListing">
-
+                <h4>
+                    Tracking Number: 4985938554935
+                </h4>
+                <h4>
+                    Name: Jane Doe
+                </h4>
+                <h4>
+                    Carrier: Fedex
+                </h4>
+                <h4>
+                    Type: Envelope
+                </h4>
             </div>
             <div className="home__packageListing">
-
+                <h4>
+                    Tracking Number: 4985938554935
+                </h4>
+                <h4>
+                    Name: Jane Doe
+                </h4>
+                <h4>
+                    Carrier: Fedex
+                </h4>
+                <h4>
+                    Type: Envelope
+                </h4>
             </div>
             <div className="home__packageListing">
-
+                <h4>
+                    Tracking Number: 4985938554935
+                </h4>
+                <h4>
+                    Name: Jane Doe
+                </h4>
+                <h4>
+                    Carrier: Fedex
+                </h4>
+                <h4>
+                    Type: Envelope
+                </h4>
             </div>
             <div className="home__packageListing">
-
+                <h4>
+                    Tracking Number: 4985938554935
+                </h4>
+                <h4>
+                    Name: Jane Doe
+                </h4>
+                <h4>
+                    Carrier: Fedex
+                </h4>
+                <h4>
+                    Type: Envelope
+                </h4>
             </div>
             <div className="home__packageListing">
-
-            </div>
-            <div className="home__packageListing">
-
-            </div>
-            <div className="home__packageListing">
-
-            </div>
-            <div className="home__packageListing">
-
+                <h4>
+                    Tracking Number: 4985938554935
+                </h4>
+                <h4>
+                    Name: Jane Doe
+                </h4>
+                <h4>
+                    Carrier: Fedex
+                </h4>
+                <h4>
+                    Type: Envelope
+                </h4>
             </div>
 
         </div>
