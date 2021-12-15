@@ -1,0 +1,30 @@
+.moreInfo{
+    /* padding: 3vh; */
+}
+
+.moreInfo__nav{
+    padding: 0;
+    margin-top: 3vh;
+}
+
+.moreInfo > div{
+    margin-top: 20px;
+    padding: 2vh;
+}
+
+.moreInfo__dateEmpl{
+    display: flex;
+    justify-content: space-between;
+}
+
+.moreInfo__location{
+    display: flex;
+}
+.moreInfo__notes{
+    display: flex;
+}
+
+.moreInfo__locationSpan{
+    width: 100%;
+}
+

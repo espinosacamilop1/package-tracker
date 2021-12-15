@@ -1,0 +1,27 @@
+
+.EditUser__nav{
+    padding: 0;
+    margin-top: 3vh;
+}
+
+.EditUser > div{
+    margin-top: 20px;
+    padding: 2vh;
+}
+
+.EditUser__name{
+    display: flex;
+    justify-content: space-between;
+}
+
+.EditUser__location{
+    display: flex;
+}
+.EditUser__notes{
+    display: flex;
+}
+
+.EditUser__locationSpan{
+    width: 100%;
+}
+

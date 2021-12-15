@@ -1,9 +1,10 @@
-.home{
+.adminHome{
     height: 100vh;
     background-color: #ffffff73;
 }
 
-.home__packageListing{
+
+.adminHome__userListing{
     background-color: #3f7286;
     height: 15vh;
     margin: 1.5vh 4.5vw 1vh 4.5vw ;
@@ -20,15 +21,8 @@
 
 }
 
-.home__packageListing > div > *{
+.adminHome__userListing > div > *{
     color: white;
     font-weight: 300;
     margin-top: 1vh;
-}
-
-
-.iconStyles{
-    color: white;
-    height: 30px;
-    width: 30px;
 }

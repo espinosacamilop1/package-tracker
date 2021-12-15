@@ -1,0 +1,27 @@
+.addEmployee{
+    margin: 4%;
+}
+
+.addEmployee > div{
+    margin-top: 2vh;
+    width: 100vw;
+}
+
+.addEmployee__Notes{
+    width: 100vw;
+}
+
+.addEmployee__Notes > *{
+    width: 92vw;
+}
+
+.addEmployee > div > *{
+    width: 92vw;
+}
+
+
+.addEmployee__ButtonDiv{
+    margin-top: 2vh;
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,27 @@
+.addPackage{
+    margin: 4%;
+}
+
+.addPackage > div{
+    margin-top: 2vh;
+    width: 100vw;
+}
+
+.addPackage__Notes{
+    width: 100vw;
+}
+
+.addPackage__Notes > *{
+    width: 92vw;
+}
+
+.addPackage > div > *{
+    width: 92vw;
+}
+
+
+.addPackage__ButtonDiv{
+    margin-top: 2vh;
+    display: flex;
+    justify-content: center;
+}

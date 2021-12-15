@@ -1,0 +1,28 @@
+.adminLogin{
+    background-color: #66a2ba;
+    height: 100vh;
+}
+
+
+.adminLogin > *{
+    margin: 0;
+}
+
+.adminLogin__logoContainer{
+    padding-top: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.adminLogin__logo{
+    height: 230px;
+}
+
+.adminLogin__form{
+    height: 20vh;
+    width:100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
