@@ -1,5 +1,4 @@
-import './App.css';
-
+import './App.css'
 import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 
 // Components import
@@ -13,6 +12,7 @@ import AdminLogin from './Components/Admin/Login'
 import AdminHome from './Components/Admin/Home'
 import AddUser from './Components/Admin/AddEmployee/index.jsx';
 import EditUser from './Components/Admin/EditUser'
+import AllEmployees from './Components/Admin/AllEmployees';
 
 
 
@@ -29,8 +29,9 @@ function App() {
           {/* Admin Routes */}
           <Route exact path='/admin' element={<AdminLogin/>}/>
           <Route exact path='/admin-home' element={<AdminHome/>}/>
+          <Route exact path='/employees' element={<AllEmployees/>}/>
           <Route exact path='/add-employee' element={<AddUser/>}/>
-          <Route exact path='/edit-user' element={<EditUser/>}/>
+          <Route exact path='/employee/:id' element={<EditUser/>}/>
         </Routes>
       </Router>
     </div>

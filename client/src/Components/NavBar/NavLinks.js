@@ -7,7 +7,10 @@ const NavLinks = () => {
                 <a href="/about">Previous Packages</a>
             </li>
             <li>
-                <a href="/work">Current Packages</a></li>
+                <a href="/work">Current Packages</a>
+            </li>
+            <li>
+                <a href="/employees">All Employees</a></li>
             <li>
                 <a href="/contact">Log Out</a>
             </li>
